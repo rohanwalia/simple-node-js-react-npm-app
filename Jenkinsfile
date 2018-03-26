@@ -18,7 +18,8 @@ pipeline {
             steps {
                 sh './jenkins/scripts/test.sh'
                 echo 'Test Stage Completed' 
-            }    
+            } 
+        }   
         }
     }
 }
